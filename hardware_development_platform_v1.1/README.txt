@@ -7,10 +7,7 @@ Autor            :Goran Kecman
 Pravo izmene     :Vojislav Milivojevic i Srdjan Stankovic
 --------------------------------------------------------------------------------
 
- Promene u poredjenju sa v1.0 su sledece:
-         - LM7805 polegnut
-         - Reset taster udaljen od J8
-         - Povecano rastojanje izmedju padova na T1 i M1
-         - J8 i J9 razmaknuti na x*2.54 rastojanje
-         - EP logo postavljen
+ Development board namenjena je polaznicima sekcije EUROBOT koji iskazu interesovanja
+ za oblast elektornike i programiranja. Ovi djaci se upucuju na pod-sekciju naziva
+ elektornika.
 
