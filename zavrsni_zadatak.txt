@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------------------
+Naziv dokumenta : zavrsni_zadatak.txt
+Projekat	: Sekcija Elektronika
+Datum		: 27.Mart 2016.
+Opis		: Zavrsni zadatak sumira sva znanja koja su prenosena polaznicima 
+		  u resavanje zadatog problema.
+		  Zadatak potrebno resiti do kraja Eurobota 2016.
+-------------------------------------------------------------------------------------------
+
+- Vrednost ocitanu sa ADC-a (plavi potenciometar) predstavlja faktor ispune PWM signala koji 
+treba povezati na crvenu LED diodu. Vrednost procitana sa ADC-a predstavlja faktor ispune
+(ili eng. duty cyle) PWM signala. Na taj nacin, osvetljaj crvene LED diode moze biti promenjen.
+
+- Pritiskom na taster br 2 perioda treptanja zelene LED diode se menja u sledecim 
+intervalima - 500ms, 1s, 2s, 5s. Peti pritisak na taster 2 gasi zelenu LED diodu. Ciklus se 
+opet ponavlja. Period treptanja zelene LED diode treba biti implementiran preko interapta.
+
+- Svi ovi zahtevi treba da budu implementirani u jednom objedinjenom kodu. Svaki od navedenih 
+zadatka (i dodatno extra feature-i) mogu biti projekti za sebe.
+
+
+Extra feature:
+ - Vrednost faktora ispune treba skalirati na opseg od 0 - 100% (0 ocitana sa ADC-a predstavlja 
+ 0%, 255 ocitano sa ADC-a predstavlja 100%) i poslati preko UART interfejsa na racunar. Ovaj 
+ feature moguce je testirati u skoli koristeci postojece USB to UART konvertore. 
+
+- Pritiskom na taster br 1 osvetljaj zute LED diode treba promeniti pomocu PWM signala. Prvi 
+pritisak na taster 1 generise faktor ispune 25%, drugi pritisak na taster 1 generise faktor ispune
+ 50%, treci pritisak na taster 1 generise faktor ispune 75%, cetvrti pritisak na taster 1 generise 
+ faktor ispune 100%. Sledeci pritisak na taster 1 gasi diodu i ciklus se ponavlja.
+ 
