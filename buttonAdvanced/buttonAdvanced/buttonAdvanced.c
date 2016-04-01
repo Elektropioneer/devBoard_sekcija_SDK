@@ -31,8 +31,8 @@ int main(void)
 	DDRB |= (1<<0) | (1<<1) | (1<<2);
 	PORTB = (1<<PB0) & (1<<PB1) & (1<<PB2);
 	
-	DDRD |= (1 << PD6) | (1 << PD5);
-	PORTD |= (1 << PD6) | (1 << PD5);
+	DDRD |= (1 << PD7) | (1 << PD5);
+	PORTD |= (1 << PD7) | (1 << PD5);
 	
 	PORTB |= (1 << PB0);
 	
